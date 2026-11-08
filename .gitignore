@@ -1,0 +1,24 @@
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos temporales y resultados locales
+tmp/
+output/
+outputs/
+*.log
+~$*
+
+# Dependencias y compilaciones previstas
+node_modules/
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+dist/
+coverage/
+
+# Estado y repositorio de publicación de Sites
+.sites-runtime/
+.sites-checkout/
+.sites-checkout-*/
