@@ -1,6 +1,6 @@
 # Primera demo de EVENTUAL
 
-[Demo privada publicada](https://eventual-club-demo-vonchox.airycornbread.chatgpt.site). Sites confirmó el despliegue; el navegador mostró la puerta de inicio de sesión de ChatGPT. La revisión de la aplicación se hizo localmente sobre la compilación publicada. El código y la documentación del repositorio GitHub siguen sin commit ni push.
+La demo web está publicada y verificada en [GitHub Pages](https://vonchox.github.io/Eventual/). Los flujos de compilación se guardan en el repositorio y sus ejecuciones aparecen en [GitHub Actions](https://github.com/Vonchox/Eventual/actions).
 
 ## Alcance entregado
 
@@ -30,4 +30,4 @@ Esta demo no certifica todavía cumplimiento completo de los requisitos de acces
 
 Cinco pruebas aprobadas: límites de aforo/acompañantes, actualización y cancelación sin duplicados, aprobación única y serialización; flujo de confirmación en escritorio y apertura/validación del formulario en teléfono. Análisis estático sin problemas y compilación web de producción completada. En navegador se comprobó una confirmación con acompañante, su persistencia tras recarga y la adaptación móvil. La guía del cliente registra los comandos de comprobación.
 
-Android y Windows cuentan con proyectos generados. Esta entrega no incluye APK ni instalador Windows probado; son entregables posteriores. En el equipo actual, la preparación de complementos Windows detectó que falta habilitar soporte de enlaces simbólicos mediante el modo de desarrollador. No se cambió esa configuración del sistema.
+GitHub Actions compiló el APK de prueba de Android y el paquete portátil de Windows x64. Ambos provienen del mismo cliente Flutter y están disponibles en los [artefactos de compilación](https://github.com/Vonchox/Eventual/actions/runs/42551284786). La validación de funcionamiento en dispositivos nativos queda pendiente.
