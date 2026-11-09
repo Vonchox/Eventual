@@ -6,6 +6,12 @@ Planificación de eventos y gestión económica para clubes, con una experiencia
 
 ## Ejecutar la demo
 
+El mismo cliente Flutter se compila para navegador, Android y Windows. La publicación web y las descargas de prueba se generan desde [GitHub Actions](https://github.com/Vonchox/Eventual/actions).
+
+- **Web:** habilita **GitHub Actions** como origen en [Settings → Pages](https://github.com/Vonchox/Eventual/settings/pages). El flujo **Publicar EVENTUAL web** publica el cliente al ejecutar el flujo manualmente o al subir cambios del cliente a `main`.
+- **Android:** descarga **Eventual-Android-APK** del flujo **Compilar EVENTUAL para Android y Windows**, extrae el archivo e instala `app-debug.apk` en el dispositivo. Es una compilación de prueba.
+- **Windows:** descarga **Eventual-Windows-x64** del mismo flujo. Extrae todo el ZIP y abre `eventual_client.exe` dentro de la carpeta extraída.
+
 [Abrir la demo privada en Sites](https://eventual-club-demo-vonchox.airycornbread.chatgpt.site). Requiere iniciar sesión con la cuenta de ChatGPT propietaria del sitio. La publicación de Sites fue confirmada; la revisión interactiva se realizó sobre la misma compilación servida localmente.
 
 Con Flutter 3.47.6 / Dart 3.13.5 y sus herramientas de plataforma:
